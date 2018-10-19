@@ -1,10 +1,10 @@
 
-float amoutWithRateApplied = 121;
+float amountWithRateApplied = 121;
 float percent = 10;
 
-Console.WriteLine($"The amount {amoutWithRateApplied} has a applied rate of {percent}%");
+Console.WriteLine($"The amount {amountWithRateApplied} has a applied rate of {percent}%");
 
 float rate =  1 + percent / 100;
-float amountWithoutRate =  amoutWithRateApplied / rate;
+float amountWithoutRate =  amountWithRateApplied / rate;
 
 Console.WriteLine($"Taking out the rate, the original amount would be :{amountWithoutRate}");
